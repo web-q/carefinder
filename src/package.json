@@ -4,7 +4,11 @@
   "description": "Lambda function for Carefinder Alexa skill",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "invoke": "aws lambda invoke --function-name 'CareFinderAlexaSkill' --payload fileb://../tests/events/closest-er-intent.json ../tests/out.txt && cat ../tests/out.txt",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "deploy": "npm run zip && npm run upload",
+      "upload": "aws lambda update-function-code --function-name 'CareFinderAlexaSkill' --zip-file fileb://../index.zip",
+      "zip": "zip -r ../index.zip . -x 'package.json' -x '*.git*' "
   },
   "repository": {
     "type": "git",
@@ -20,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/web-q/carefinder/issues"
   },
-  "homepage": "https://github.com/web-q/carefinder#readme"
+  "homepage": "https://github.com/web-q/carefinder#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.9"
+  }
 }
