@@ -1,0 +1,46 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "UsZipCode",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "UsPostalAddress",
+          "type": "AMAZON.PostalAddress"
+        },
+        {
+          "name": "UsCity",
+          "type": "AMAZON.US_CITY"
+        },
+        {
+          "name": "UsState",
+          "type": "AMAZON.US_STATE"
+        }
+      ],
+      "intent": "ClosestErIntent"
+    },
+    {
+      "intent": "NextErIntent"
+    },
+    {
+      "intent": "PreviousErIntent"
+    },
+    {
+      "intent": "ErPhoneNumberIntent"
+    },
+    {
+      "intent": "ErDirectionsIntent"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+ClosestErIntent what is the closest ER
+ClosestErIntent what is the closest ER from {UsZipCode}
+ClosestErIntent what is the closest ER from {UsPostalAddress} {UsCity} {UsState} {UsZipCode}
+ClosestErIntent what is the closest ER from zip code {UsZipCode}
+ClosestErIntent what is the closest ER near zip code {UsZipCode}
+NextErIntent next
+PreviousErIntent previous
