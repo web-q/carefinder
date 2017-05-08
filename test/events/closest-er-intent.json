@@ -1,0 +1,69 @@
+{
+    "version": "1.0",
+    "session": {
+        "new": false,
+        "sessionId": "amzn1.echo-api.session.47c89a7d-9ccf-4477-863a-56c286cdb6ac",
+        "application": {
+            "applicationId": "amzn1.ask.skill.99e69df1-c838-42af-b8fc-e352437825a9"
+        },
+        "user": {
+            "userId": "amzn1.ask.account.AF4MQLGM6US7DIZLUQDWLGXQDPELATC5QKXRKJKKMAR243DA5FNYRHYSS2MTCY4LXMOIP3G2D4WTFOPCE5HGRMGY7XZMDC3JNCPSL2UHAVDCLH2KUI6ZYLIRSOO6TKTGPE6VTYUHTDXIUQSHPIFO73SAOFHGBIDX7ANOS4BPLXCBENYLSA7LBOZUHNIKQ62OFZZBSY5H5BQD2RQ",
+            "permissions": {
+                "consentToken": "Atza|IwEBICurnWz7x8Ae5txeCWpOrOlgejKtg0ZczTWOrxA1xx9fR5iBuRrGtm3NWx3Mji_jYf9VKtqi5gT4kgzagks7EpTiXs81Pbm3YHGxO1ju8Fmv9nS5faTrne6Zyu5D3qYUItUqeL7Q9VDiqiyLvZMeL8-exwWIlSy18dwxIeO0QVh07xQB2U5HKFyAJTrfAywjGxDqwlG2GZZyf9LmIxQgsq0sOomd-wqGBkXzD4hKhDEBPgm5kEQ4cupR0JHfGcmujwGGytHzdDWsyo4RPWRrquqf0zi0P_aW-b88C8uJqMFJfkzUyLZ4FKzLyEKYDfTitKodOrPnqJfurptQlu5yC7QC5CkCwrPjU_JGPvu86ruTnjKDMz4myTvQcob0mxOHmlX0Xa0FYrQGj1xXDqXOLLFCiF4FR__rZwIbQsdgysqFC5A-GDYQSZvgxRhzjqFrUOxRFO_DgCp6kd3gZ19L9At-Icksgmqf39h00LmJnE5_Tw"
+            }
+        },
+        "attributes": {}
+    },
+    "context": {
+        "AudioPlayer": {
+            "playerActivity": "STOPPED"
+        },
+        "System": {
+            "application": {
+                "applicationId": "amzn1.ask.skill.99e69df1-c838-42af-b8fc-e352437825a9"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.AF4MQLGM6US7DIZLUQDWLGXQDPELATC5QKXRKJKKMAR243DA5FNYRHYSS2MTCY4LXMOIP3G2D4WTFOPCE5HGRMGY7XZMDC3JNCPSL2UHAVDCLH2KUI6ZYLIRSOO6TKTGPE6VTYUHTDXIUQSHPIFO73SAOFHGBIDX7ANOS4BPLXCBENYLSA7LBOZUHNIKQ62OFZZBSY5H5BQD2RQ",
+                "permissions": {
+                    "consentToken": "Atza|IwEBICurnWz7x8Ae5txeCWpOrOlgejKtg0ZczTWOrxA1xx9fR5iBuRrGtm3NWx3Mji_jYf9VKtqi5gT4kgzagks7EpTiXs81Pbm3YHGxO1ju8Fmv9nS5faTrne6Zyu5D3qYUItUqeL7Q9VDiqiyLvZMeL8-exwWIlSy18dwxIeO0QVh07xQB2U5HKFyAJTrfAywjGxDqwlG2GZZyf9LmIxQgsq0sOomd-wqGBkXzD4hKhDEBPgm5kEQ4cupR0JHfGcmujwGGytHzdDWsyo4RPWRrquqf0zi0P_aW-b88C8uJqMFJfkzUyLZ4FKzLyEKYDfTitKodOrPnqJfurptQlu5yC7QC5CkCwrPjU_JGPvu86ruTnjKDMz4myTvQcob0mxOHmlX0Xa0FYrQGj1xXDqXOLLFCiF4FR__rZwIbQsdgysqFC5A-GDYQSZvgxRhzjqFrUOxRFO_DgCp6kd3gZ19L9At-Icksgmqf39h00LmJnE5_Tw"
+                }
+            },
+            "device": {
+                "deviceId": "amzn1.ask.device.AFDOM2ZDHWBH45TSAQ5K4P4C4TH5JTN6NK474WL6LFSSGTQOKCQJP6JBFDY3NYLHBVGZRNDVGOFUUXUBEXNYXBMCH3ITDIWBTXN23CLORBQTZIULQ5MTZHNH2GIGKQUNT3O6LGILW3PDQZ6DT3Q7O5YYK7FA",
+                "supportedInterfaces": {
+                    "AudioPlayer": {}
+                }
+            },
+            "apiEndpoint": "https://api.amazonalexa.com"
+        }
+    },
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "amzn1.echo-api.request.cd776780-1461-4073-8179-089994706af1",
+        "timestamp": "2017-05-02T18:38:14Z",
+        "locale": "en-US",
+        "intent": {
+            "name": "ClosestErIntent",
+            "confirmationStatus": "NONE",
+            "slots": {
+                "UsZipCode": {
+                    "name": "UsZipCode",
+                    "confirmationStatus": "NONE"
+                },
+                "UsCity": {
+                    "name": "UsCity",
+                    "confirmationStatus": "NONE"
+                },
+                "UsState": {
+                    "name": "UsState",
+                    "confirmationStatus": "NONE"
+                },
+                "UsPostalAddress": {
+                    "name": "UsPostalAddress",
+                    "value": "the closest ER",
+                    "confirmationStatus": "NONE"
+                }
+            }
+        }
+    }
+}
