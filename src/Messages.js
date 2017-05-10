@@ -14,6 +14,8 @@ const NOTIFY_MISSING_PERMISSIONS = "Please enable Location permissions in the Am
 
 const NO_ADDRESS = "It looks like you don't have an address set. Please set your address in the Amazon Alexa app.";
 
+const NO_FULL_ADDRESS = "It looks like you don't have a full address set. Please set your full address in the Amazon Alexa app."
+
 const ADDRESS_AVAILABLE = "Here is your full address: ";
 
 const ERROR = "Uh Oh. Looks like something went wrong.";
@@ -35,6 +37,7 @@ module.exports = {
     "SAY_THAT_AGAIN": SAY_THAT_AGAIN,
     "NOTIFY_MISSING_PERMISSIONS": NOTIFY_MISSING_PERMISSIONS,
     "NO_ADDRESS": NO_ADDRESS,
+    "NO_FULL_ADDRESS": NO_FULL_ADDRESS,
     "ADDRESS_AVAILABLE": ADDRESS_AVAILABLE,
     "ERROR": ERROR,
     "LOCATION_FAILURE": LOCATION_FAILURE,

@@ -1,22 +1,22 @@
 {
     "version": "1.0",
     "session": {
-        "new": false,
-        "sessionId": "amzn1.echo-api.session.47c89a7d-9ccf-4477-863a-56c286cdb6ac",
+        "new": true,
+        "sessionId": "amzn1.echo-api.session.f2853703-6ce8-46e4-8f63-b8a909d898a6",
         "application": {
             "applicationId": "amzn1.ask.skill.99e69df1-c838-42af-b8fc-e352437825a9"
         },
         "user": {
             "userId": "amzn1.ask.account.AF4MQLGM6US7DIZLUQDWLGXQDPELATC5QKXRKJKKMAR243DA5FNYRHYSS2MTCY4LXMOIP3G2D4WTFOPCE5HGRMGY7XZMDC3JNCPSL2UHAVDCLH2KUI6ZYLIRSOO6TKTGPE6VTYUHTDXIUQSHPIFO73SAOFHGBIDX7ANOS4BPLXCBENYLSA7LBOZUHNIKQ62OFZZBSY5H5BQD2RQ",
             "permissions": {
-                "consentToken": "Atza|IwEBICurnWz7x8Ae5txeCWpOrOlgejKtg0ZczTWOrxA1xx9fR5iBuRrGtm3NWx3Mji_jYf9VKtqi5gT4kgzagks7EpTiXs81Pbm3YHGxO1ju8Fmv9nS5faTrne6Zyu5D3qYUItUqeL7Q9VDiqiyLvZMeL8-exwWIlSy18dwxIeO0QVh07xQB2U5HKFyAJTrfAywjGxDqwlG2GZZyf9LmIxQgsq0sOomd-wqGBkXzD4hKhDEBPgm5kEQ4cupR0JHfGcmujwGGytHzdDWsyo4RPWRrquqf0zi0P_aW-b88C8uJqMFJfkzUyLZ4FKzLyEKYDfTitKodOrPnqJfurptQlu5yC7QC5CkCwrPjU_JGPvu86ruTnjKDMz4myTvQcob0mxOHmlX0Xa0FYrQGj1xXDqXOLLFCiF4FR__rZwIbQsdgysqFC5A-GDYQSZvgxRhzjqFrUOxRFO_DgCp6kd3gZ19L9At-Icksgmqf39h00LmJnE5_Tw"
+                "consentToken": "Atza|IwEBILUncTPHgoYZcjIw7ZrFjEvXrg-SO9Tw7jcZufShbRrI1qZ-FlP2S1lGZk84w_2h6zwuzFlVXfvDc4_F0D598K75AY2HJwp0jRhu0PZt3I7hPdzDCbj4KO0s1vbwK4MAOA5LNlurswBV_r9_RY3fmSwwfdcNZz0nGp62kI0Fz_skOrXUT0WBgIhQVnVkGtor1QIaAONF9YeAXfffUoep2lEjRm7VkFbO2CrmTwgXAGRwncoVNPcatoY3DmTU1aSAFrjx6XkGV23PDByLIHG5nr79EZ9y3xlH1I7_UCTTVxOwfdp_cTKtIW20Suab9zRVDg7kQGs9O0Lye2Aa-wM9UK69_yFiUAf0iB7jYFY3xx0IvskBj2-osRfgTpwJu6JOoSLzngGUlG0PlOP2m9cE-hRj01KyqsgNgKm3hxclOSsO99DAhKXym6Q5UfX_VLKQ1Edu_KcY3NgyoP76s2QA5sni3fkOI1hyMgx0WcllDiCsxg"
             }
         },
         "attributes": {}
     },
     "context": {
         "AudioPlayer": {
-            "playerActivity": "STOPPED"
+            "playerActivity": "IDLE"
         },
         "System": {
             "application": {
@@ -25,7 +25,7 @@
             "user": {
                 "userId": "amzn1.ask.account.AF4MQLGM6US7DIZLUQDWLGXQDPELATC5QKXRKJKKMAR243DA5FNYRHYSS2MTCY4LXMOIP3G2D4WTFOPCE5HGRMGY7XZMDC3JNCPSL2UHAVDCLH2KUI6ZYLIRSOO6TKTGPE6VTYUHTDXIUQSHPIFO73SAOFHGBIDX7ANOS4BPLXCBENYLSA7LBOZUHNIKQ62OFZZBSY5H5BQD2RQ",
                 "permissions": {
-                    "consentToken": "Atza|IwEBICurnWz7x8Ae5txeCWpOrOlgejKtg0ZczTWOrxA1xx9fR5iBuRrGtm3NWx3Mji_jYf9VKtqi5gT4kgzagks7EpTiXs81Pbm3YHGxO1ju8Fmv9nS5faTrne6Zyu5D3qYUItUqeL7Q9VDiqiyLvZMeL8-exwWIlSy18dwxIeO0QVh07xQB2U5HKFyAJTrfAywjGxDqwlG2GZZyf9LmIxQgsq0sOomd-wqGBkXzD4hKhDEBPgm5kEQ4cupR0JHfGcmujwGGytHzdDWsyo4RPWRrquqf0zi0P_aW-b88C8uJqMFJfkzUyLZ4FKzLyEKYDfTitKodOrPnqJfurptQlu5yC7QC5CkCwrPjU_JGPvu86ruTnjKDMz4myTvQcob0mxOHmlX0Xa0FYrQGj1xXDqXOLLFCiF4FR__rZwIbQsdgysqFC5A-GDYQSZvgxRhzjqFrUOxRFO_DgCp6kd3gZ19L9At-Icksgmqf39h00LmJnE5_Tw"
+                    "consentToken": "Atza|IwEBIG0okalKbU3qlgiE2JhOVC72-rDIroowmxQe8Atg61mSzi9qhiQ1dAkEQokD_13g5zEzjJvGDqMoHj5Ie32ozg4Lijnx2gbLcrsxRzGOZjhnNDzzd-6bvRvp4eLmPanXZFbYmTXgm4FJE7UT3VnsfY09dvhoPNdD_nB2R-VDqzCPCPwgIEFDI_OBFOTd1MYJwl-nwim5I4lAQEssKbd7mZgocOuyWqafING9YbjvP0IHSM0D3bawynGEAo3Sl9Vd1xlPXG9gS2OKslUizYQ3KP4KQvAM8SAF73huYtHN4kaNTecD4J-HKOf0NVorxYG93RV0iI592RVv_uAqBe7YbEqeylM0xlxOSr_6fB-5PWNVcQq9k95VAFwlfAePotc_NpYnMi7Ex4XUAHbc_l8gj75yTFfjWT2FovXc-omQzDrs1nckExS8RpqnAWt6jqVvPeWCju4GbxgQkfKV_TTSBCluXpTvv7oUuuIB5KBf8HlJLA"
                 }
             },
             "device": {
@@ -39,8 +39,8 @@
     },
     "request": {
         "type": "IntentRequest",
-        "requestId": "amzn1.echo-api.request.cd776780-1461-4073-8179-089994706af1",
-        "timestamp": "2017-05-02T18:38:14Z",
+        "requestId": "amzn1.echo-api.request.b383e5ec-b138-4160-8793-4ac865c2efb0",
+        "timestamp": "2017-05-09T22:48:30Z",
         "locale": "en-US",
         "intent": {
             "name": "ClosestErIntent",

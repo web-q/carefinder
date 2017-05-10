@@ -1,5 +1,6 @@
 'use strict';
 
+const logger= require('winston');
 const Https = require('https');
 
 /**
@@ -14,7 +15,7 @@ class AlexaDeviceAddressClient {
      * @param consentToken valid consent token.
      */
     constructor(apiEndpoint, deviceId, consentToken) {
-        console.log("Creating AlexaAddressClient instance.");
+        logger.debug("Creating AlexaAddressClient instance.");
         this.deviceId = deviceId;
         this.consentToken = consentToken;
         this.endpoint = apiEndpoint.replace(/^https?:\/\//i, "");
@@ -59,21 +60,39 @@ class AlexaDeviceAddressClient {
      */
     __handleDeviceAddressApiRequest(requestOptions, fulfill, reject) {
         Https.get(requestOptions, (response) => {
-            console.log(`Device Address API responded with a status code of : ${response.statusCode}`);
+            logger.debug(`Device Address API responded with a status code of : ${response.statusCode}`);
+            let jsonString = ''
 
             response.on('data', (data) => {
-                let responsePayloadObject = JSON.parse(data);
+                jsonString += data;
+            });
+
+            response.on('end', (data) => {
+                let responsePayloadObject = JSON.parse(jsonString);
 
                 const deviceAddressResponse = {
                     statusCode: response.statusCode,
-                    address: responsePayloadObject
+                    responsePayloadObject: responsePayloadObject
                 };
 
-                fulfill(deviceAddressResponse);
+                if (response.statusCode === 200) {
+                    
+                    if (responsePayloadObject['addressLine1'] === null || responsePayloadObject['stateOrRegion'] === null) {
+                        reject({ statusCode: 1, responsePayloadObject: responsePayloadObject })
+                    } else {
+                        logger.debug("Device Address Completed: " + JSON.stringify(deviceAddressResponse));
+                        fulfill(deviceAddressResponse);
+                    }
+                } else {
+                    logger.debug("Device Address Rejected: " + JSON.stringify(deviceAddressResponse));
+                    reject(deviceAddressResponse);
+                }
+
             });
+
         }).on('error', (e) => {
-            console.error(e);
-            reject();
+            logger.error(e);
+            reject({ statusCode: 0, responsePayloadObject: e.message });
         });
     }
 

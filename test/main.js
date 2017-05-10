@@ -19,8 +19,9 @@ var roleArn = 'arn:aws:iam::511281917723:role/lambds_db_log_s3';
 var region = 'us-east-1';
 /* DO NOT MAKE CHANGE BELOW THIS */
 var AWS = require('aws-sdk');
-var proxy = require('proxy-agent');
 
+/*
+var proxy = require('proxy-agent');
 
 process.env.http_proxy = 'http://nip8458:Albika2!@proxy.orl.medcity.net:80';
 
@@ -29,7 +30,7 @@ AWS.config.update({
     agent: proxy('http://nip8458:Albika2!@proxy.orl.medcity.net:80') 
   }
 });
-
+*/
 
 function context() {
    var context = require('./context.json');
