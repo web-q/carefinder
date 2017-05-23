@@ -1,0 +1,80 @@
+{
+    "version": "1.0",
+    "session": {
+        "new": false,
+        "sessionId": "amzn1.echo-api.session.1ef36c25-8a26-44f7-be7f-83111ebf77de",
+        "application": {
+            "applicationId": "amzn1.ask.skill.99e69df1-c838-42af-b8fc-e352437825a9"
+        },
+        "attributes": {
+            "device_coordinates": {
+                "address": "1990 Fairmont Ln, FL, 34120",
+                "location": {
+                    "lat": 26.295978,
+                    "lng": -81.564773
+                }
+            },
+            "STATE": "_ERMODE",
+            "closest_er": {
+                "title": "Fawcett",
+                "link": "http://www.fawcetthospital.com",
+                "category": "Sarasota",
+                "pubDate": "Tue, 16 May 2017 13:14:29 EDT",
+                "description": "3   Mins",
+                "author": "HCA IT&S",
+                "comments": "Fawcett Memorial Hospital ER Wait Time",
+                "phone": "941-629-1181",
+                "address": "21298 Olean Blvd, North West, Port Charlotte FL 33949",
+                "city": "Port Charlotte           ",
+                "state": "FL",
+                "zipCode": "33949",
+                "division": "West Florida Division    ",
+                "latitude": "26.988620000000001",
+                "longitude": "-82.098406999999995",
+                "entityBrandingId": "35953|Fawcett-Memorial-Hospital",
+                "coid": "35953",
+                "displayName": "Fawcett Memorial Hospital",
+                "distance": 58.13925369813434
+            }
+        },
+        "user": {
+            "userId": "amzn1.ask.account.AF4MQLGM6US7DIZLUQDWLGXQDPELATC5QKXRKJKKMAR243DA5FNYRHYSS2MTCY4LXMOIP3G2D4WTFOPCE5HGRMGY7XZMDC3JNCPSL2UHAVDCLH2KUI6ZYLIRSOO6TKTGPE6VTYUHTDXIUQSHPIFO73SAOFHGBIDX7ANOS4BPLXCBENYLSA7LBOZUHNIKQ62OFZZBSY5H5BQD2RQ",
+            "permissions": {
+                "consentToken": "Atza|IwEBIBi8MLKrhwxPUIYdRjDcsMFhdnLjxN5Q_jlfrW5MltXTVHm26pUdorvwnm5JEe8-1q4qt20HJFnubIQmvq_p7KheQSX0EX6cTDUHvYyOak9Gr1ZwIOSn8xOpIozKJ1VbtPwu29lZcvc53VNdAkStJKPPJJV-DvALq1TjrCczUN8gXS73N87MBoLL9hjm_BDWW6YRsbsUWsjv3P5cCGg4Q72Z5Nu44GZxMVxT3QI9EpELicjcwe8SLs8qsfFIPWSytvAWtVH9SpKLgTlgWqVQiBCvB3tRp-Hup86XO1dFeHaYYzYRR4PKJYLodbojX8WXVCCb2uBQEixyhFPkyHtN6WunZt4YdHdHupLDqxpZjdPzanuajNg4iPZnEOBOeQnKhMQ9HwLFNqcH98oviQ19iIacgJUJ9dEsbhNLd2AhAoIsEFMl8pm5tx5Cpu-XJI8ok59jS-faiKT_Dz5D7jaP-u_qPyQTPTtEyvkz9xtxiLHyCw"
+            }
+        }
+    },
+    "context": {
+        "AudioPlayer": {
+            "playerActivity": "IDLE"
+        },
+        "System": {
+            "application": {
+                "applicationId": "amzn1.ask.skill.99e69df1-c838-42af-b8fc-e352437825a9"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.AF4MQLGM6US7DIZLUQDWLGXQDPELATC5QKXRKJKKMAR243DA5FNYRHYSS2MTCY4LXMOIP3G2D4WTFOPCE5HGRMGY7XZMDC3JNCPSL2UHAVDCLH2KUI6ZYLIRSOO6TKTGPE6VTYUHTDXIUQSHPIFO73SAOFHGBIDX7ANOS4BPLXCBENYLSA7LBOZUHNIKQ62OFZZBSY5H5BQD2RQ",
+                "permissions": {
+                    "consentToken": "Atza|IwEBIBi8MLKrhwxPUIYdRjDcsMFhdnLjxN5Q_jlfrW5MltXTVHm26pUdorvwnm5JEe8-1q4qt20HJFnubIQmvq_p7KheQSX0EX6cTDUHvYyOak9Gr1ZwIOSn8xOpIozKJ1VbtPwu29lZcvc53VNdAkStJKPPJJV-DvALq1TjrCczUN8gXS73N87MBoLL9hjm_BDWW6YRsbsUWsjv3P5cCGg4Q72Z5Nu44GZxMVxT3QI9EpELicjcwe8SLs8qsfFIPWSytvAWtVH9SpKLgTlgWqVQiBCvB3tRp-Hup86XO1dFeHaYYzYRR4PKJYLodbojX8WXVCCb2uBQEixyhFPkyHtN6WunZt4YdHdHupLDqxpZjdPzanuajNg4iPZnEOBOeQnKhMQ9HwLFNqcH98oviQ19iIacgJUJ9dEsbhNLd2AhAoIsEFMl8pm5tx5Cpu-XJI8ok59jS-faiKT_Dz5D7jaP-u_qPyQTPTtEyvkz9xtxiLHyCw"
+                }
+            },
+            "device": {
+                "deviceId": "amzn1.ask.device.AFDOM2ZDHWBH45TSAQ5K4P4C4TH5JTN6NK474WL6LFSSGTQOKCQJP6JBFDY3NYLHBVGZRNDVGOFUUXUBEXNYXBMCH3ITDIWBTXN23CLORBQTZIULQ5MTZHNH2GIGKQUNT3O6LGILW3PDQZ6DT3Q7O5YYK7FA",
+                "supportedInterfaces": {
+                    "AudioPlayer": {}
+                }
+            },
+            "apiEndpoint": "https://api.amazonalexa.com"
+        }
+    },
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "amzn1.echo-api.request.c5be852d-b351-44f0-9723-d7a9bf98bde9",
+        "timestamp": "2017-05-16T16:56:58Z",
+        "locale": "en-US",
+        "intent": {
+            "name": "ErDirectionsIntent",
+            "confirmationStatus": "NONE"
+        }
+    }
+}
