@@ -1,6 +1,6 @@
 'use strict';
 
-const key = 'AIzaSyBOebiqD_kzsZWxn1GppUNB8PFV-tBzunM';
+const key = 'yourkey';
 const logger= require('winston');
 const googleMaps = require('@google/maps');
 
@@ -16,7 +16,7 @@ class GoogleMapsClient {
   constructor() {
     logger.debug('Creating an instance of the GoogleMapsClient');
     this.client = googleMaps.createClient({
-      key: 'AIzaSyBOebiqD_kzsZWxn1GppUNB8PFV-tBzunM',
+      key: 'yourkey',
       timeout: 10000
     });
   }
